@@ -5,6 +5,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import domain.Hotel;
+import domain.Room;
+import domain.RoomType;
+
 import org.junit.jupiter.params.provider.CsvSource;
 
 import java.time.LocalDate;
